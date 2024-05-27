@@ -115,7 +115,7 @@ In this part it was to obtain XML entities automatically from objects based on t
 <br> 
 The annotations created for this effect were:
 
-| Function                                                       | Description                                                                                                       |
+| Annotation                                                       | Description                                                                                                       |
 |----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | ` annotation class Name(val str: String) `                     | This annotation is used to  to define the preffered name of Classes/Properties                                    |
 | ` annotation class Attributes() `                              | This annotation identifies a property as an Attribute                                                             |
