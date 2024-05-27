@@ -123,7 +123,7 @@ The annotations created for this effect were:
 | `annotation class TagLeafs()` | This annotation identifies a property as a Tag_Leaf                                                               |
 | `annotation class Exclude()` | This annotation identifies a property that must be excluded                                                       |
 | `annotation class XmlString(val str: KClass<out StringChange>)` | This annotation is applied to classes to change the toString function depending on the class given                |
-| `annotation class XmlAdapter(    val xmlAdapter:KClass<out AdapterXML>)` | This annotation is applied to classes to change the order of the objects (for example) depending on the class given |
+| `annotation class XmlAdapter(val xmlAdapter:KClass<out AdapterXML>)` | This annotation is applied to classes to change the order of the objects (for example) depending on the class given |
 
 The annotations are optional, in case there are no annotations in the class, the code will by default create correctly Tags and Tag_leafs. 
 <br>However in case you want to create an Attribute, by default it will be created a Tag_Leaf, so in this situation you must specify it as an Attribute using an annotation.
