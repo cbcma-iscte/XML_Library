@@ -22,7 +22,7 @@ course, under the guidance of *Professor André Santos*, in [Master's in Compute
 - Remove attributes globally from the document (providing entity name and attribute name)
 - MicroXPath
   - Obtain XML fragments, by allowing querying the document with simple XPath expressions
-- Validations
+- Validation
 
 ### **Part2 : Mapping XML Classes**
 - Change names of identifiers in the translation to XML
